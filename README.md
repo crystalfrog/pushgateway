@@ -31,3 +31,9 @@
 
 ### Build image
     mvn spring-boot:build-image
+
+# Outstanding work left
+* Run app in k3s cluster
+* Add larger variety of metrics
+* helm install for app
+* Include k3s cluster test in build
