@@ -14,7 +14,7 @@
     <name>pushgateway</name>
     <description>Example to push Prometheus metrics to its pushgateway from an ephemeral job</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>16</java.version> <!-- Using 16 as the build-image fails using 14 -->
     </properties>
     <dependencies>
         <dependency>
